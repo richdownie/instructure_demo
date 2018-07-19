@@ -7,7 +7,7 @@ require 'cukehub'
 require 'webdrivers'
 
 Before do
-  @cukehub_api_key = ''
+  @cukehub_api_key = 'YX2qGQ2XALENHvctnN56mUyW'
   @domain = 'https://www.instructure.com/'
   puts @browser.capabilities.browser_name + ' ' + @browser.capabilities.version
   @common = Common.new(@browser)
