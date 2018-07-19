@@ -3,11 +3,9 @@ Given /I am on the about page/i do
 end
 
 Given /I play the video/i do
-  @browser.first(class: 'version-dkgrey').click
+  @about.play_button.click
 end
 
 Given /I verify management profiles/i do
-  el = @common.jcd_profile
-  @browser.action.move_to(el).perform
-  el.click
+  @about.jcd_profile.click
 end

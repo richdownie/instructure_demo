@@ -13,4 +13,5 @@ Before do
   @common = Common.new(@browser)
   @news = News.new(@browser)
   @careers = Careers.new(@browser)
+  @about = About.new(@browser)
 end
